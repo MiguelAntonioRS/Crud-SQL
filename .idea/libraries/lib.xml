@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/mssql-jdbc-12.2.0.jre8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/mssql-jdbc-12.2.0.jre11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/sqlite-jdbc-3.42.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
