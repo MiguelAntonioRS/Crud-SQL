@@ -12,7 +12,7 @@ Esta es una aplicación Java que utiliza Swing para la interfaz gráfica de usua
 
 1. Instala y configura un servidor MySQL local o remoto.
 2. Crea una base de datos llamada `db_students`.
-3. Ejecuta el script `db_students.sql` para crear la tabla `TBStudents`.
+3. Ejecuta el script `db_students.sql` para crear la tabla `TBStudents` Que debe tener las columnas `id int identity Specification`,`matricula varchar(50)`,`nombre varchar(50)`,`email varchar(100)`,`edad int`,`sexo char(1)`,`activo int`.
 
 ## Ejecución
 
