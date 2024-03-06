@@ -16,17 +16,20 @@ Esta es una aplicación Java que utiliza Swing para la interfaz gráfica de usua
 
 ## Ejecución
 
-1. Clona o descarga este repositorio. ```git clone https://github.com/MiguelAntonioRS/Crud-SQL.git```
-2. Abre una terminal (o CMD) y navega hasta la ubicación del proyecto.
-3. Compila el proyecto (opcional si no se ha descargado el archivo JAR compilado):
+1. Clona o descarga este repositorio.
+ ```bash
+git clone https://github.com/MiguelAntonioRS/Crud-SQL.git
+```
+3. Abre una terminal (o CMD) y navega hasta la ubicación del proyecto.
+4. Compila el proyecto (opcional si no se ha descargado el archivo JAR compilado):
     ```
     mvn compile
     ```
-4. Ejecuta la aplicación:
+5. Ejecuta la aplicación:
     ```
     java -jar StudentCRUD.jar
     ```
-5. La aplicación debería iniciarse y mostrarse la interfaz de usuario.
+6. La aplicación debería iniciarse y mostrarse la interfaz de usuario.
 
 ## Uso
 
