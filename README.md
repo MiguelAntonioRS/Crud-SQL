@@ -10,8 +10,8 @@ This is a Java application that utilizes Swing for the graphical user interface 
 ## Database Setup
 
   Install and configure a local or remote SQL server.
-  Create a database named db_students.
-  Execute the db_students.sql script to create the TBStudents table which should have columns id int identity Specification, ```matricula varchar(50)```, ```nombre varchar(50)```, ```email varchar(100)```, ```edad int```, ```sexo char(1)```, ```activo int```.
+  Create a database named `db_students`.
+  Execute the `db_students.sql` script to create the `TBStudents` table which should have columns `id int identity Specification`, ```matricula varchar(50)```, ```nombre varchar(50)```, ```email varchar(100)```, ```edad int```, ```sexo char(1)```, ```activo int```.
 
 ## Execution
 
