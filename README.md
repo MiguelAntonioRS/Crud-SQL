@@ -1,46 +1,45 @@
-# Aplicación CRUD de Gestión de Estudiantes
+Student Management CRUD Application
 
-Esta es una aplicación Java que utiliza Swing para la interfaz gráfica de usuario (GUI) y JDBC para interactuar con una base de datos. La aplicación permite realizar operaciones básicas de Crear, Leer, Actualizar y Eliminar (CRUD) sobre registros de estudiantes.
+This is a Java application that utilizes Swing for the graphical user interface (GUI) and JDBC to interact with a database. The application allows performing basic Create, Read, Update, and Delete (CRUD) operations on student records.
+## Requirements
 
-## Requisitos
+    Java Development Kit (JDK) 8 or higher.
+    MySQL Server (or another compatible database management system).
+    Apache Maven (optional, only if you want to build the project from source code).
 
-- Java Development Kit (JDK) 8 o superior.
-- MySQL Server (u otro sistema de gestión de bases de datos compatible).
-- Apache Maven (opcional, solo si deseas construir el proyecto desde el código fuente).
+## Database Setup
 
-## Configuración de la Base de Datos
+  Install and configure a local or remote SQL server.
+  Create a database named db_students.
+  Execute the db_students.sql script to create the TBStudents table which should have columns id int identity Specification, matricula varchar(50), nombre varchar(50), email     varchar(100), edad int, sexo char(1), activo int.
 
-1. Instala y configura un servidor MySQL local o remoto.
-2. Crea una base de datos llamada `db_students`.
-3. Ejecuta el script `db_students.sql` para crear la tabla `TBStudents` Que debe tener las columnas `id int identity Specification`,`matricula varchar(50)`,`nombre varchar(50)`,`email varchar(100)`,`edad int`,`sexo char(1)`,`activo int`.
+## Execution
 
-## Ejecución
-
-1. Clona o descarga este repositorio.
- ```bash
+1.  Clone or download this repository. ```bash
 git clone https://github.com/MiguelAntonioRS/Crud-SQL.git
 ```
-3. Abre una terminal (o CMD) y navega hasta la ubicación del proyecto.
-4. Compila el proyecto (opcional si no se ha descargado el archivo JAR compilado):
+2. Open a terminal (or CMD) and navigate to the project location.
+3. Compile the project (optional if the compiled JAR file has not been downloaded):
     ```
     mvn compile
     ```
-5. Ejecuta la aplicación:
+4. Run the application:
     ```
     java -jar StudentCRUD.jar
     ```
-6. La aplicación debería iniciarse y mostrarse la interfaz de usuario.
+5. The application should start, and the user interface should be displayed.
 
-## Uso
+## Usage
 
-- Una vez que la aplicación esté en funcionamiento, puedes realizar las siguientes operaciones:
-    - **Agregar**: Completa los campos de entrada y haz clic en "Guardar".
-    - **Modificar**: Haz clic en una fila de la tabla para seleccionar un estudiante, modifica los datos en los campos de entrada y haz clic en "Modificar".
-    - **Eliminar**: Haz clic en una fila de la tabla para seleccionar un estudiante y haz clic en "Eliminar".
-    - **Limpiar**: Borra todos los campos de entrada.
+Once the application is up and running, you can perform the following operations:
 
-## Contribuciones
+    Add: Fill in the input fields and click "Save".
+    Modify: Click on a row in the table to select a student, modify the data in the input fields, and click "Modify".
+    Delete: Click on a row in the table to select a student and click "Delete".
+    Clear: Clears all input fields.
 
-Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar esta aplicación, no dudes en abrir un problema o enviar una solicitud de extracción.
+## Contributions
+
+Contributions are welcome. If you have any ideas to improve this application, feel free to open an issue or send a pull request.
 
 
