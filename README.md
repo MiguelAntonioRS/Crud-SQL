@@ -15,7 +15,8 @@ This is a Java application that utilizes Swing for the graphical user interface 
 
 ## Execution
 
-1.  Clone or download this repository. ```bash
+1.  Clone or download this repository.
+   ```
 git clone https://github.com/MiguelAntonioRS/Crud-SQL.git
 ```
 2. Open a terminal (or CMD) and navigate to the project location.
@@ -33,10 +34,10 @@ git clone https://github.com/MiguelAntonioRS/Crud-SQL.git
 
 Once the application is up and running, you can perform the following operations:
 
-    Add: Fill in the input fields and click "Save".
-    Modify: Click on a row in the table to select a student, modify the data in the input fields, and click "Modify".
-    Delete: Click on a row in the table to select a student and click "Delete".
-    Clear: Clears all input fields.
+* Add: Fill in the input fields and click "Save".
+* Modify: Click on a row in the table to select a student, modify the data in the input fields, and click "Modify".
+* Delete: Click on a row in the table to select a student and click "Delete".
+* Clear: Clears all input fields.
 
 ## Contributions
 
