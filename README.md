@@ -26,11 +26,11 @@ git clone https://github.com/MiguelAntonioRS/Crud-SQL.git
     mvn compile
     ```
 4. Run the application:
-5. 
+   
     ```
     java -jar StudentCRUD.jar
     ```
-6. The application should start, and the user interface should be displayed.
+5. The application should start, and the user interface should be displayed.
 
 ## Usage
 
