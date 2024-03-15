@@ -21,14 +21,16 @@ git clone https://github.com/MiguelAntonioRS/Crud-SQL.git
 ```
 2. Open a terminal (or CMD) and navigate to the project location.
 3. Compile the project (optional if the compiled JAR file has not been downloaded):
+   
     ```
     mvn compile
     ```
 4. Run the application:
+5. 
     ```
     java -jar StudentCRUD.jar
     ```
-5. The application should start, and the user interface should be displayed.
+6. The application should start, and the user interface should be displayed.
 
 ## Usage
 
