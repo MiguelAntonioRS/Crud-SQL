@@ -6,7 +6,7 @@ This is a Java application that utilizes Swing for the graphical user interface 
 * Java Development Kit (JDK) 8 or higher.
 * MySQL Server (or another compatible database management system).
 * Apache Maven (optional, only if you want to build the project from source code).
-
+ 
 ## Database Setup
 
   Install and configure a local or remote SQL server.
