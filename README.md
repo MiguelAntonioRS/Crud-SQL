@@ -1,4 +1,4 @@
-Student Management CRUD Application
+# Student Management CRUD Application
 
 This is a Java application that utilizes Swing for the graphical user interface (GUI) and JDBC to interact with a database. The application allows performing basic Create, Read, Update, and Delete (CRUD) operations on student records.
 
