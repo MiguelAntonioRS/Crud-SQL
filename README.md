@@ -22,7 +22,7 @@ git clone https://github.com/MiguelAntonioRS/Crud-SQL.git
 ```
 2. Open a terminal (or CMD) and navigate to the project location.
 3. Compile the project (optional if the compiled JAR file has not been downloaded):
-   
+
     ```
     mvn compile
     ```
